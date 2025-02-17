@@ -187,8 +187,8 @@
 	"devDependencies": {
 		"@codeeditorland/test": "0.0.1",
 		"@types/glob": "8.1.0",
-		"@types/node": "22.13.1",
-		"chai": "5.1.2",
+		"@types/node": "22.13.4",
+		"chai": "5.2.0",
 		"chai-as-promised": "8.0.1",
 		"chai-subset": "1.6.0",
 		"glob": "11.0.1",
