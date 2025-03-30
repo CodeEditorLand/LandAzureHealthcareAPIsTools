@@ -1,11 +1,34 @@
 {
 	"name": "@codeeditorland/health-fhir-converter",
 	"displayName": "FHIR Converter",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Enables the conversion of legacy formatted health data to FHIR, expanding the use cases for health data and enabling interoperability.",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureHealthcareAPIsTools#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureHealthcareAPIsTools/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandAzureHealthcareAPIsTools.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./client/out/extension.js",
 	"scripts": {
 		"compile": "tsc -b",
-		"download-templates": "cd test-data && sh download-templates.sh"
+		"download-templates": "cd test-data && sh download-templates.sh",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"contributes": {
 		"commands": [
@@ -186,6 +209,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@codeeditorland/test": "0.0.1",
+		"@playform/build": "0.2.1",
 		"@types/glob": "8.1.0",
 		"@types/node": "22.13.14",
 		"chai": "5.2.0",
@@ -194,6 +218,9 @@
 		"glob": "11.0.1",
 		"nyc": "17.1.0",
 		"reflect-metadata": "0.2.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"icon": "assets/icon.png",
 	"galleryBanner": {
