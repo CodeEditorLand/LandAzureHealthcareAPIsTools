@@ -211,7 +211,7 @@
 		"@codeeditorland/test": "0.0.1",
 		"@playform/build": "0.2.1",
 		"@types/glob": "8.1.0",
-		"@types/node": "22.13.14",
+		"@types/node": "22.14.0",
 		"chai": "5.2.0",
 		"chai-as-promised": "8.0.1",
 		"chai-subset": "1.6.0",
