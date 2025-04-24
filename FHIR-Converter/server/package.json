@@ -30,7 +30,7 @@
 		"@codeeditorland/languageserver": "0.0.1",
 		"@codeeditorland/languageserver-textdocument": "0.0.1",
 		"@types/glob": "8.1.0",
-		"glob": "11.0.1"
+		"glob": "11.0.2"
 	},
 	"devDependencies": {
 		"@playform/build": "0.2.3"

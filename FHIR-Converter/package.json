@@ -215,7 +215,7 @@
 		"chai": "5.2.0",
 		"chai-as-promised": "8.0.1",
 		"chai-subset": "1.6.0",
-		"glob": "11.0.1",
+		"glob": "11.0.2",
 		"nyc": "17.1.0",
 		"reflect-metadata": "0.2.2"
 	},
